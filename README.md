@@ -4,23 +4,25 @@
 
 ## Dependencies
 
-- neovim (ofcourse)
-- packer
+-   neovim (ofcourse)
+-   packer
 
 ## Usage
 
-1. Install neovim and packer
+1. Install neovim, packer, telescope and any c-compiler <strong>1\*</strong>
 2. Open neovim
 3. Ignore any errors you get at this point
 4. Run `:PackerSync` in neovim
 5. Re-open neovim and watch the neovim goodness
 
+> <strong>1\*</strong> You can use paru for instance for these installs
+
 ## Author
 
 👤 **Jesse Koldewijn**
 
-* Website: https://jkinsight.nl
-* Github: [@JesseKoldewijn](https://github.com/JesseKoldewijn)
+-   Website: https://jkinsight.nl
+-   Github: [@JesseKoldewijn](https://github.com/JesseKoldewijn)
 
 ## Show your support
 
