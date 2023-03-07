@@ -13,5 +13,5 @@ vim.keymap.set("n", "<C-q>", vim.cmd.q) -- Close neovim
 vim.keymap.set("n", "<leader>t", telscope.git_files, {}) -- Find file (single-fuzzy)
 vim.keymap.set("n", "<leader>", telscope.find_files, {}) -- Find files (global-fuzzy)
 vim.keymap.set("n", "<leader>s", function() 
-	telscope.grep_string({ search = vim.fn.input("Grep > ") });
+	telscope.grep_string({ search = vim.fn.input("grep > ") });
 end)
