@@ -15,6 +15,15 @@ return require('packer').startup(function(use)
   	requires = { {'nvim-lua/plenary.nvim'} }
   }	
 
+  -- treesitter 
+  -- use 'nvim-treesitter/nvim-treesitter'
+
+  -- ripgrep for telescope grep search
+  use 'duane9/nvim-rg'
+
+  -- fd for telescope
+  use 'sharkdp/fd'
+
   -- themes
   use { 'jascha030/nitepal.nvim' }
   use 'Mofiqul/dracula.nvim'
