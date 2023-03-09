@@ -25,7 +25,7 @@ return require('packer').startup(function(use)
   use 'sharkdp/fd'
 
   -- themes
-  use { 'jascha030/nitepal.nvim' }
-  use 'Mofiqul/dracula.nvim'
+  use { 'jascha030/nitepal.nvim', as = 'nitepal' }
+  use { 'catppuccin/nvim', as = 'catppuccin' }
   
 end)
