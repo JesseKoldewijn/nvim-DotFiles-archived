@@ -7,16 +7,13 @@ return require('packer').startup(function(use)
 
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-
+  
   -- telescope
   use {
   	'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	-- or                            , branch = '0.1.x',
   	requires = { {'nvim-lua/plenary.nvim'} }
-  }	
-
-  -- treesitter 
-  -- use 'nvim-treesitter/nvim-treesitter'
+  }
 
   -- ripgrep for telescope grep search
   use 'duane9/nvim-rg'
@@ -24,8 +21,17 @@ return require('packer').startup(function(use)
   -- fd for telescope
   use 'sharkdp/fd'
 
+  -- Syntax goodness etc
+  use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+  use('nvim-treesitter/playground')
+
+  -- Blazingly fast file jumping
+  use('theprimeagen/harpoon')
+
+  -- Escape hatch for monday morning coding
+  use('mbbill/undotree')
+
   -- themes
-  use { 'jascha030/nitepal.nvim', as = 'nitepal' }
-  use { 'catppuccin/nvim', as = 'catppuccin' }
+  use {'jascha030/nitepal.nvim', as = 'nitepal'}
   
 end)
