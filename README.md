@@ -18,7 +18,7 @@
 2. Open neovim
 3. Ignore any errors you get at this point
 4. Run `:PackerSync` in neovim
-5. Re-open neovim and watch the neovim goodness
+5. Re-open neovim or `:so [path to init.lua in repo root]` and watch the neovim goodness
 
 > <strong>1\*</strong> You can use paru for instance for these installs
 
