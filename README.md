@@ -6,6 +6,9 @@
 
 -   neovim (ofcourse)
 -   packer
+-   treesitter
+-   ripgrep
+-   c-compiler (clang, twig, etc...)
 
 ## Usage
 
