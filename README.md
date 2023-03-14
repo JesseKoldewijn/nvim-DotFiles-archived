@@ -7,7 +7,9 @@
 -   neovim (ofcourse)
 -   packer
 -   treesitter
--   ripgrep
+-   telescope
+-   ripgrep (telescope dep)
+-   fd (telescope dep)
 -   c-compiler (clang, twig, etc...)
 
 ## Usage
