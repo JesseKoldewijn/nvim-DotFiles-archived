@@ -1,1 +1,1 @@
-vim.keymap.set('n', '<C-u>', vim.cmd.UndoTreeToggle)
+vim.keymap.set("n", "<C-u>", vim.cmd.UndoTreeToggle)
